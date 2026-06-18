@@ -1,2 +1,24 @@
+.box-model-demo {
+    /* From the innermost box arrow */
+    width: 300px; 
+    
+    /* From the inner teal zone ("padding 50px") */
+    padding: 50px; 
+    
+    /* From the inner teal zone label ("color lightblue") */
+    background-color: lightblue; 
+    
+    /* From the middle blue zone ("border 15px solid blue") */
+    border: 15px solid blue; 
+    
+    /* From the outermost white zone ("margin 20px") */
+    margin: 20px; 
+    
+    /* Optional: Optional font styling to match clean layouts */
+    font-family: sans-serif;
+    color: #000;
+}
 
-/* Your CSS Code here. */
+.box-model-demo p {
+    margin: 0; /* Clears default paragraph spacing inside the box */
+}
